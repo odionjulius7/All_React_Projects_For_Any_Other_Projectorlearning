@@ -21,4 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.env
+.env 
+# when you create a .env file to hide an API key remember to add it to the gitignore file so that when 
+# you push it to github no one can access ur key(they will be ignore whil being pushed)

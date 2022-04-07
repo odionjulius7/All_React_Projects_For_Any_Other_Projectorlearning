@@ -9,7 +9,9 @@ export const useFetch = () => {
   const getProducts = async () => {
     const response = await fetch(url)
     const data = await response.json()
-    setData(paginate(data))
+    // pagination is passed the value(data) we got from the API
+    // get from the data, objects and put some certain no: in a an araay to form arrays of array
+    setData(paginate(data)) //and gives number of items that should be displayed per page 
     setLoading(false)
   }
 

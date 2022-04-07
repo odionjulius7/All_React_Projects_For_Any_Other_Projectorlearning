@@ -23,7 +23,7 @@
 
 # 3: in package.json always change the "build": "react-scripts build" to "build": "CI= react-scripts build" cos of the the build error netliy always encounter and it always help you rebuild in netlify when you push changes to github 
 
-# 4: finally u can use the github icon at the left side of the editor(vscode) under the file, under the searcg icon to commit and push changes to ur github repo neatly 
+# 4: finally u can use the github icon at the left side of the editor(vscode) under the file, under the search icon to commit and push changes to ur github repo neatly 
 
 
 ## on the video from youtube (code 15 react project-complete course : @4hrs:41 minute of video)
