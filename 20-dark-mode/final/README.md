@@ -10,7 +10,7 @@
 // CSS CUSTOM VARIABLE
 the :root is the root of our document object(html)
 and with this any custom variable(color, styling, fontsizing value here
-can be accessed any in the body document
+can be accessed anywhere in the body document
 i.e u can pass var(--clr-font) any where
 */
 :root {
@@ -25,7 +25,7 @@ i.e u can pass var(--clr-font) any where
   any except by the particular class
 const [theme, setTheme] = useState('dark-theme')
   NOTE: document.documentElement.className = theme;// we can use this
-  to set and change the className of the html tag itself to make the classNmae take over the root of the html
+  to set and change the className of the html tag itself to make the className take over the root of the html
   & it value used every where in the body element
 */
 .dark-theme {
